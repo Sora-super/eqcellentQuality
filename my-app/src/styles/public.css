@@ -7,7 +7,17 @@ ul,li{list-style: none;}
 	background: red;
 }
 .header a{color: #fff;}
-.footer { top: auto; bottom: 0;height: 70px;line-height: 70px;}
-.footer li{width: 20%;float: left;}
+.header a:nth-child(1){width:20%}
+.header a:nth-child(2){width:80%}
+.header a:nth-child(3){width:20%}
 
-.content { padding: 40px;}
+
+
+.content{
+	position: absolute;top:68px;bottom: 70px;width: 100%;
+}
+
+
+.footer { top: auto; bottom: 0;height: 70px;line-height: 70px;}
+.footer li{width: 20%;float: left;font-size: 36px;}
+

@@ -1,0 +1,27 @@
+* { margin: 0; padding: 0;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+html,body{width: 100%;height: 100%;}
+
+/*nav*/
+.content .nav{height:45.9vw;background:rgba(61,28,19,0.9);border-bottom: 3vw solid gainsboro;}
+.content .nav .nav_con1{height: 26.7vw;line-height: 26.7vw;}
+.content .nav .nav_con1 a{height: 26.7vw;line-height: 26.7vw;width:33%;text-align: center;font-size: 16px;float: left;color: #fff;}
+.content .nav .nav_con1 a:nth-child(1){display: flex;justify-content: center;align-items: center;}
+.content .nav .nav_con1 a:nth-child(1) span{width: 20vw;height: 20vw;border-radius: 50%;background: #fff;}
+.content .nav .nav_con2{height: 19.2vw;line-height: 19.2vw;}
+
+.content .nav .nav_con2 p{float: left;width: 49%;font-size: 16px;text-align: center;color: #fff;background: rgba(106,89,80,0.8)}
+.content .nav .nav_con2 p:nth-child(1){margin-right: 2%;}
+/*订单*/
+.content .dingdan{height:31vw;background: forestgreen;border-bottom: 5.3vw solid gainsboro;}
+.content .dingdan .dingdan_con1{height:13.3vw;background: gold;font-size: 3vw;display: flex;justify-content: space-between;align-items: center;}
+.content .dingdan .dingdan_con1 a{padding: 0 2vw;}
+.content .dingdan .dingdan_con1 a:nth-child(1) i{margin-right: 2vw;}
+.content .dingdan .dingdan_con1 a:nth-child(2) i{margin-left: 2vw;font-size: 4.5vw;}
+/*钱包*/
+.content .qianbao{height:31vw;background: darkblue;border-bottom: 5.3vw solid gainsboro;}
+/*服务*/
+.content .services{height:14vw ;background: fuchsia;border-bottom: 5.3vw solid gainsboro;}
+/*反馈*/
+.content .fankui{height:14vw ;background: fuchsia;border-bottom: 5.3vw solid gainsboro;}

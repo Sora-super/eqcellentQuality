@@ -7,9 +7,9 @@ class Header extends Component{
 	}
 	render(){
 		return 	<div className="header">
-					<a href="#">后退</a>
-					<a href="#">优品惠</a>	
-					<a href="#">太阳</a>	
+					<a href="#" >{this.props.lefttitle}</a>
+					<a href="#">{this.props.contitle}</a>	
+					<a href="#">{this.props.righttitle}</a>	
 				</div>
 	}
 }
@@ -29,9 +29,9 @@ class Footer extends Component{
 	render(){
 		return	<ul className="footer">
 					<li><a href="#">首页</a></li>
-					<li><a href="#">首页</a></li>
-					<li><a href="#">首页</a></li>
-					<li><a href="#">首页</a></li>
+					<li><a href="#">专题</a></li>
+					<li><a href="#">视频直播</a></li>
+					<li><a href="#">购物车</a></li>
 					<li><a href="#">我的</a></li>
 				</ul>
 	}

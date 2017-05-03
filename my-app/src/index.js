@@ -2,7 +2,8 @@ import React from  "react";
 import ReactDOM from  "react-dom";
 import {Router,Route,hashHistory} from  "react-router"
 
-import Index from  "./routers/Home/index"
+import Myself from "./routers/Home/myself"
+/*import Index from  "./routers/Home/index"
 
 
 const App = ()=>
@@ -13,9 +14,9 @@ const App = ()=>
  
 </Router>;
 
+*/
 
-
-ReactDOM.render(<App/>,document.getElementById("root"))
+ReactDOM.render(<Myself/>,document.getElementById("root"))
 
 
 
