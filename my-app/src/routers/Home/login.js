@@ -40,10 +40,17 @@ class Login extends  Component {
     	login.onclick = function(){
     		var username = document.getElementById("username").value;
     		var passsword = document.getElementById("passsword").value;
-    		if(localStorage.getItem(username)&&localStorage.getItem(username)!=passsword){
-    			alert("用户名或者密码错误")
+    		console.log(localStorage.getItem(username))
+    		console.log(passsword)
+    		if(username.length==0){
+    			alert("用户名或者密码不能为空")
     		}else{
-    			location.href="#/"
+    			if(localStorage.getItem(username)!==passsword){
+    				
+    				alert("用户名或者密码错误")
+    			}else{
+    				location.href="#/"
+    			}
     		}
     		
     	}

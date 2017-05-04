@@ -1,10 +1,10 @@
 * { margin: 0; padding: 0;}
 a{text-decoration: none;}
 ul,li{list-style: none;}
-.header, .footer {font-size: 46px; position: absolute; left: 0; top: 0; width: 100%; line-height: 40px;  background-color: #999999;text-align: center}
+.header, .footer {z-index: 999;opacity: 0.8;font-size: 46px; position: absolute; left: 0; top: 0; width: 100%; line-height: 40px;  background-color: #999999;text-align: center}
 .header{
 	height: 100px;display: flex;line-height: 100px;justify-content: space-between;
-	background: red;
+	background: red;position: fixed;
 }
 .header a{color: #fff;}
 .header a:nth-child(1){width:20%}
@@ -18,6 +18,6 @@ ul,li{list-style: none;}
 }
 
 
-.footer { top: auto; bottom: 0;height: 70px;line-height: 70px;}
-.footer li{width: 20%;float: left;font-size: 36px;}
+.footer {background: #fff;position: fixed; top: auto; bottom: 0;height: 15.2vw;line-height:15.2vw;display: flex;justify-content: space-around;}
+.footer li{font-size: 36px;}
 

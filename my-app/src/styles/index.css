@@ -1,0 +1,51 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+/*分类*/
+.fenlei{height:13.1vw;line-height: 13.3vw;display: flex;position: fixed;justify-content: space-around;  width: 100%;background: #fff;opacity: 0.8;  }
+.fenlei li{font-size: 26px;}
+/*广告1*/
+.ad1{height: 16vw;margin-top: 13.1vw;}
+.ad1 img{width: 100%;height: 100%;}
+
+/*轮播图*/
+.lunbotu{width:100%;height:50.67vw;border-bottom: 4vw solid gainsboro;overflow: hidden;}
+.my-carousel {
+  background: #fff;
+}
+.my-carousel a {
+
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.my-carousel a img {
+  width: 100%;
+ 
+}
+.my-carousel .v-item {
+  height:48.67vw;
+  line-height: 48.67vw;
+
+}
+
+.am-wingblank.am-wingblank-lg{width: 100%;padding-left: 0;margin-left: 0;}
+.slider-slide{width: 100%;}
+.v-item  a img{width: 100%;height: 100%;}
+.slider-list{height: 50.67vw;width: 100%;}
+/*活动*/
+
+.activity p{display: flex;justify-content: space-between;font-size: 26px;height: 14.1vw;line-height: 14.1vw;}
+.activity p a{padding: 0 30px;}
+.activity ul li{height: 53.3vw;padding: 10px 30px;}
+.activity ul li img{width: 100%;height: 100%;}
+
+/*今日新品*/
+
+.newpro p{display: flex;justify-content: space-between;font-size: 26px;height: 14.1vw;line-height: 14.1vw;}
+.newpro p a{padding: 0 30px;}
+.newpro ul li{height: 70.4vw;padding: 0 30px;border-bottom: 3px solid gainsboro;overflow: hidden;}
+.newpro ul li .tupian{height:53.3vw ;}
+.newpro ul li .tupian img{width: 100%;height: 100%;}
+.newpro ul li .word{height: 10.4vw;line-height: 10.4vw;font-size: 26px;    overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.newpro .sale{display: flex;justify-content: space-between;font-size: 26px;}

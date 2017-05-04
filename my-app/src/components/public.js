@@ -28,11 +28,11 @@ class Footer extends Component{
 	}
 	render(){
 		return	<ul className="footer">
-					<li><a href="#">首页</a></li>
-					<li><a href="#">专题</a></li>
-					<li><a href="#">视频直播</a></li>
-					<li><a href="#">购物车</a></li>
-					<li><a href="#/myself">我的</a></li>
+					<li><a href="#"><img src={require('../img/nav_index.png')}/></a></li>
+					<li><a href="#"><img src={require('../img/nav_special.png')}/></a></li>
+					<li><a href="#"><img src={require('../img/nav_tv.png')}/></a></li>
+					<li><a href="#"><img src={require('../img/nav_cart.png')}/></a></li>
+					<li><a href="#/myself"><img src={require('../img/nav_my.png')}/></a></li>
 				</ul>
 	}
 }
