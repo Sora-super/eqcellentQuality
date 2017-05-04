@@ -7,10 +7,7 @@ import "../../styles/public.css"
 import "../../styles/login.css"
 
 class Login extends  Component {
-    constructor(props){
-        super(props); 
-    }
-    
+   
     render(){    
         return (
         	
@@ -42,7 +39,7 @@ class Login extends  Component {
     		var passsword = document.getElementById("passsword").value;
     		console.log(localStorage.getItem(username))
     		console.log(passsword)
-    		if(username.length==0){
+    		if(username.length===0){
     			alert("用户名或者密码不能为空")
     		}else{
     			if(localStorage.getItem(username)!==passsword){

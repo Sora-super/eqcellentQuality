@@ -5,9 +5,7 @@ import "../../styles/public.css"
 import "../../styles/myself.css"
 
 class Myself extends Component {
-	constructor(props) {
-		super(props);
-	}
+	
 	render() {
 		return(
 			<div>    

@@ -5,14 +5,17 @@ import React,{Component} from "react";
 import {Header,Content,Footer} from "../../components/public";
 import "../../styles/public.css"
 import "../../styles/index.css"
-import { Carousel, WhiteSpace, WingBlank } from 'antd-mobile';
+import { Carousel, WingBlank } from 'antd-mobile';
 class Index extends  Component {
     constructor(props){
         super(props); 
+    	 this.state={
+            activityData:[],
+            newData:[],
+            lunbo:[]
+        }
     }
- 	state = {
-    	
-  	}
+ 	
   	
   
     render(){    
@@ -40,8 +43,15 @@ class Index extends  Component {
         <Carousel className="my-carousel"
           dots={true} dragging={false} swiping={false} autoplay infinite vertical={false}
         >
-          <div className="v-item"><a href="#"><img src={require('../../img/lunbo1.jpg')} / ></a></div>
-         <div className="v-item"><a href="#"><img src={require('../../img/lunbo2.jpg')} / ></a></div>
+        
+        {
+        	this.state.lunbo.map((ele,i)=>
+         		 <div className="v-item"><a href="#"><img src={ele} / ></a></div>
+        		
+        	)
+        }
+
+       
         
         </Carousel>
       </WingBlank>
@@ -52,11 +62,12 @@ class Index extends  Component {
             				<a>超值精选别错过</a>
             			</p>
             			<ul>
-            				<li><a href="#"><img src={require('../../img/activity1.png')} / ></a></li>
-            				<li><a href="#"><img src={require('../../img/activity2.png')} / ></a></li>
-            				<li><a href="#"><img src={require('../../img/activity3.png')} / ></a></li>
-            				<li><a href="#"><img src={require('../../img/activity4.png')} / ></a></li>
-            				<li><a href="#"><img src={require('../../img/activity5.png')} / ></a></li>
+            			
+            					{
+            						this.state.activityData.map(function(ele,i){
+            							return <li><a href="#"><img src={ele}/ ></a></li>        						
+            						})
+            					}
             		
             			</ul>
             		</div>
@@ -66,65 +77,59 @@ class Index extends  Component {
             				<a>每日10点上新</a>
             			</p>
             			<ul>
-            				<li>
-            					<div className="tupian">
-            						<a href="#"><img src={require('../../img/newpro1.jpg')} / ></a>
-            					</div>
-            					<div className="word">这是好多好多好啊啊啊啊啊啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊</div>
-            					<div className="sale">
-            						<a>$298</a>
-            						<a>已经有5118人购买</a>
-            					</div>
+            				
+            				{
+            					this.state.newData.map((ele,i)=>
+            						<li>
+            							<div className="tupian">
+            								<a href="#"><img src={ele.imgurl} / ></a>
+            							</div>
+            							<div className="word">{ele.word}</div>
+            							<div className="sale">
+            								<a>${ele.price}</a>
+            								<a>{ele.scale}</a>
+            							</div>
             				</li>
-            				<li>
-            					<div className="tupian">
-            						<a href="#"><img src={require('../../img/newpro2.jpg')} / ></a>
-            					</div>
-            					<div className="word">这是好多好多好啊啊啊啊啊啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊</div>
-            					<div className="sale">
-            						<a>$298</a>
-            						<a>已经有5118人购买</a>
-            					</div>
-            				</li>
-            				<li>
-            					<div className="tupian">
-            						<a href="#"><img src={require('../../img/newpro3.jpg')} / ></a>
-            					</div>
-            					<div className="word">这是好多好多好啊啊啊啊啊啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊</div>
-            					<div className="sale">
-            						<a>$298</a>
-            						<a>已经有5118人购买</a>
-            					</div>
-            				</li>
-            				<li>
-            					<div className="tupian">
-            						<a href="#"><img src={require('../../img/newpro4.jpg')} / ></a>
-            					</div>
-            					<div className="word">这是好多好多好啊啊啊啊啊啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊</div>
-            					<div className="sale">
-            						<a>$298</a>
-            						<a>已经有5118人购买</a>
-            					</div>
-            				</li>
-            				<li>
-            					<div className="tupian">
-            						<a href="#"><img src={require('../../img/newpro5.jpg')} / ></a>
-            					</div>
-            					<div className="word">这是好多好多好啊啊啊啊啊啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊阿啊啊啊啊啊啊啊啊</div>
-            					<div className="sale">
-            						<a>$298</a>
-            						<a>已经有5118人购买</a>
-            					</div>
-            				</li>
+            					)
+            			}
+           		        			
             			</ul>
             		</div>
-            	</Content>
+            	</Content> 
  				<Footer/>
             </div>
         )
     }
     componentDidMount() {
-    
+    	/*var data = require("../../mock/index.json");
+    	console.log(data[0].activitydatas)*/
+    	fetch("mock/index.json").then(res=>res.json()).then(function(data){
+    		//console.log(data[0].activitydatas.length);
+    		this.setState({
+    			activityData:data[0].activitydatas,
+    			newData:data[0].newDatas,
+    			lunbo:data[0].lunbotu
+    		})
+    	
+    	
+  			
+    	}.bind(this))
+  		var fenlei = document.getElementsByClassName("fenlei")[0].children;
+  		console.log(fenlei);
+  		for(let x=0;x<fenlei.length;x++){
+  			var that=this;
+  				fenlei[x].onclick = function(){
+  					fetch("mock/index.json").then(res=>res.json()).then(function(data){
+  						that.setState({
+    						activityData:data[x].activitydatas,
+    						newData:data[x].newDatas,
+    						lunbo:data[x].lunbotu
+    					})
+  					})
+  				}
+  		}
+  		
+		
  	}
    
 }

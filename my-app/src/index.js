@@ -7,7 +7,7 @@ import Login from  "./routers/Home/login"
 import Myself from "./routers/Home/myself"
 import Index from  "./routers/Home/index"
 import Register from  "./routers/Home/register"
-
+import Special from  "./routers/Home/special"
 
 
 ReactDOM.render(<div>
@@ -16,6 +16,7 @@ ReactDOM.render(<div>
     <Route path="/myself" component={Myself}/>
     <Route path="/login" component={Login}/>
     <Route path="/register" component={Register}/>
+    <Route path="/special" component={Special}/>
   </Router>
 </div>, document.getElementById('root'));
 

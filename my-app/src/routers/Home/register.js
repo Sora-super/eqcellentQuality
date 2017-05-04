@@ -7,10 +7,7 @@ import "../../styles/public.css"
 import "../../styles/register.css"
 
 class Login extends  Component {
-    constructor(props){
-        super(props); 
-    }
-    
+   
     render(){    
         return (
         	

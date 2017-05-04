@@ -1,0 +1,33 @@
+[
+	{
+		
+		"newdata":[
+			{"bigimg":"img/s1.jpg","smallimg1":"img/s11.jpg","smallword1":"我心眼小","smallprice1":"$388",
+			"smallimg2":"img/s12.jpg","smallword2":"我心眼大","smallprice2":"$488",
+			"smallimg3":"img/s13.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			},
+			{"bigimg":"img/s2.jpg","smallimg1":"img/s21.jpg","smallword1":"我心眼小","smallprice1":"$388",
+			"smallimg2":"img/s22.jpg","smallword2":"我心眼大","smallprice2":"$488",
+			"smallimg3":"img/s23.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			},
+			{"bigimg":"img/s3.jpg","smallimg1":"img/s31.jpg","smallword1":"我心眼小","smallprice1":"$388",
+			"smallimg2":"img/s32.jpg","smallword2":"我心眼大","smallprice2":"$488",
+			"smallimg3":"img/s33.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			},
+			{"bigimg":"img/s4.jpg","smallimg1":"img/s41.jpg","smallword1":"我心眼小","smallprice1":"$388",
+			"smallimg2":"img/s42.jpg","smallword2":"我心眼大","smallprice2":"$488",
+			"smallimg3":"img/s43.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			},
+			{"bigimg":"img/s5.jpg","smallimg1":"img/s51.jpg","smallword1":"我心眼小","smallprice1":"$388",
+			"smallimg2":"img/s52.jpg","smallword2":"我心眼大","smallprice2":"$488",
+			"smallimg3":"img/s53.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			},
+			{"bigimg":"img/s6.jpg","smallimg1":"img/s61.jpg","smallword1":"我心眼小","smallprice1":"$388",
+			"smallimg2":"img/s62.jpg","smallword2":"我心眼大","smallprice2":"$488",
+			"smallimg3":"img/s63.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			}
+		]
+		
+	}
+	
+]
