@@ -13,10 +13,9 @@ class Index extends  Component {
     render(){    
         return (
             <div>    
-            	<Header lefttitle="左边" contitle="优品惠" righttitle="右边"/>
-           	 	
+            	<Header lefttitle="左边" contitle="优品惠" righttitle="右边"/>           	 	
             	<Content/>
-            	<Footer/>
+ 				<Footer/>
             </div>
         )
     }

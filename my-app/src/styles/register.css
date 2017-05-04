@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+
+
+.shurukuang{height:90vw ;border: none;}
+.shurukuang input{width: 90%;height: 14.9vw;font-size: 40px;padding: 0 5%;border: none;border-bottom: 1px solid gainsboro;}
+.zhuce{font-size: 36px;text-align: center;height: 11.2vw;line-height: 11.2vw;display: block;width: 90%;margin: 0 5%;background: gold;}
+
+.forget{display: flex;justify-content: space-between;font-size: 30px;padding: 20px;}

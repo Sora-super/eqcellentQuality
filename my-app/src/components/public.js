@@ -32,7 +32,7 @@ class Footer extends Component{
 					<li><a href="#">专题</a></li>
 					<li><a href="#">视频直播</a></li>
 					<li><a href="#">购物车</a></li>
-					<li><a href="#">我的</a></li>
+					<li><a href="#/myself">我的</a></li>
 				</ul>
 	}
 }

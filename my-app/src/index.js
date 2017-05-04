@@ -2,22 +2,27 @@ import React from  "react";
 import ReactDOM from  "react-dom";
 import {Router,Route,hashHistory} from  "react-router"
 
+
+import Login from  "./routers/Home/login"
 import Myself from "./routers/Home/myself"
-/*import Index from  "./routers/Home/index"
+import Index from  "./routers/Home/index"
+import Register from  "./routers/Home/register"
 
 
-const App = ()=>
 
-<Router history={hashHistory}>
+ReactDOM.render(<div>
+  <Router history={hashHistory}>
+    <Route path="/" component={Index}/>
+    <Route path="/myself" component={Myself}/>
+    <Route path="/login" component={Login}/>
+    <Route path="/register" component={Register}/>
+  </Router>
+</div>, document.getElementById('root'));
 
-    <Route path="/" component={Index} />
- 
-</Router>;
 
-*/
 
-ReactDOM.render(<Myself/>,document.getElementById("root"))
 
+/*ReactDOM.render(<Login/>,document.getElementById("root"))*/
 
 
 
