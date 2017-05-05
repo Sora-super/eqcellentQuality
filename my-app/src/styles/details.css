@@ -1,0 +1,78 @@
+*{margin: 0;padding: 0;}
+ul,li{list-style: none;}
+a{text-decoration: none;}
+html,body{width: 100%;height: 100%;}
+
+
+/*中间内容*/
+
+/*轮播图展示*/
+.con_img{height: 82.67vw;}
+
+.my-carousel {
+  background: #fff;
+}
+.my-carousel a {
+
+  width: 100%;
+  margin: 0; padding: 0;
+}
+.my-carousel a img {
+  width: 100%;
+ 
+}
+.my-carousel .v-item {
+  height:82.67vw;
+  line-height: 82.67vw;
+
+}
+
+.am-wingblank.am-wingblank-lg{width: 100%;padding-left: 0;margin-left: 0;}
+.slider-slide{width: 100%;}
+.v-item  a img{width: 100%;height: 100%;}
+.slider-list{height: 82.67vw;width: 100%;}
+
+/*商品价格*/
+.con_price{height: 14.67vw;line-height: 14.67vw;padding: 0 10px;border-bottom: 2vw solid gainsboro;background: #fff;}
+/*商品介绍*/
+.con_instro{height:53.67vw;border-bottom:3.2vw solid gainsboro;background: #fff;}
+.con_instro h3{height: 21.3vw;line-height: 23.3vw;padding: 0 4.5vw;}
+.con_instro p{height:32.37vw;  padding: 0 4.5vw; line-height: 8vw;  overflow: hidden;font-size:24px;}
+/*活动页面*/
+.con_activity{height: 32vw;border-bottom: 3.2vw solid gainsboro;background: #fff;}
+.con_activity .left{width: 20%;padding: 4vw;height: 24vw;float: left;}
+.con_activity .right{width:64%;padding:4vw;float: left;height: 24vw;float: left;}
+.con_activity .right p{font-size: 26px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;height: 9.67vw;}
+
+/*收货地主*/
+.con_address{padding: 0 4vw;height: 13.3vw;line-height: 13.3vw;border-bottom: 3.2vw solid gainsboro;display: flex;justify-content: space-between;}
+.con_address div:nth-child(2){display: flex;justify-content: space-around;flex: 1;}
+.con_address div:nth-child(3){color: red;}
+
+/*用户评价*/
+.con_evaluate{height: 90.67vw;border-bottom: 3.2vw solid gainsboro;background: #fff}
+.con_evaluate .pingjia{height:11.4vw ;line-height: 11.4vw;padding: 0 4vw;}
+.con_evaluate ul li{height: 27.8vw;border-bottom: 1px solid gainsboro;}
+.con_evaluate ul li .pingjia_left{width: 20%;float: left;}
+.con_evaluate ul li .pingjia_left span{display:block;width: 13.3vw;height: 13.3vw;border-radius: 50%;background: hotpink;margin:7.25vw auto;overflow: hidden;}
+.con_evaluate ul li .pingjia_left span img{width: 100%;height: 100%;}
+.con_evaluate ul li .pingjia_right{width: 80%;float: left;}
+.con_evaluate ul li .pingjia_right p{height: 13.9vw;line-height: 13.9vw;}
+.con_evaluate .seemore{text-align: center;height: 23.67vw;line-height: 23.67vw;}
+
+
+.con_ads1{height: 23.67vw;border-bottom: 3.2vw solid gainsboro;overflow: hidden;}
+.con_ads1 img{width: 100%;}
+.con_moredetails p{height: 16vw;line-height: 16vw;text-align: center;background: #fff;}
+.con_moredetails ul li{width: 98%;margin: 0 1%;height: 70.67vw;}
+.con_moredetails ul li img{width: 100%;height: 100%;}
+.con_morethings p{height: 16vw;line-height: 16vw;text-align: center;}
+.con_morethings ul li{width: 48%;margin: 1%;height: 70.67vw;background: #fff;float: left;}
+.con_morethings ul li div img{height: 48vw;width: 100%;}
+.con_morethings ul li div p{height: 11.34vw;line-height: 11.34vw;padding: 0 2vw;color: #000000;}
+/*底部*/
+
+.detailsfooter{position: fixed;bottom: 0;height: 15.2vw;line-height: 15.2vw;width: 100%;background: #fff;}
+.detailsfooter li{width: 33%;height: 100%;float: left;border-right: 2px solid gainsboro;text-align: center;}
+
+.detailsfooter li:nth-child(3){background: red;color: #fff;}

@@ -2,29 +2,29 @@
 	{
 		
 		"newdata":[
-			{"bigimg":"img/s1.jpg","smallimg1":"img/s11.jpg","smallword1":"我心眼小","smallprice1":"$388",
-			"smallimg2":"img/s12.jpg","smallword2":"我心眼大","smallprice2":"$488",
-			"smallimg3":"img/s13.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			{"bigimg":"img/s1.jpg","smallimg1":"img/s11.jpg","smallword1":"我心眼小","smallprice1":"$3188",
+			"smallimg2":"img/s12.jpg","smallword2":"我心眼大","smallprice2":"$4885",
+			"smallimg3":"img/s13.jpg","smallword3":"我心眼小","smallprice3":"$3858"
 			},
-			{"bigimg":"img/s2.jpg","smallimg1":"img/s21.jpg","smallword1":"我心眼小","smallprice1":"$388",
-			"smallimg2":"img/s22.jpg","smallword2":"我心眼大","smallprice2":"$488",
-			"smallimg3":"img/s23.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			{"bigimg":"img/s2.jpg","smallimg1":"img/s21.jpg","smallword1":"真好吃","smallprice1":"$33838",
+			"smallimg2":"img/s22.jpg","smallword2":"好吃","smallprice2":"$48668",
+			"smallimg3":"img/s23.jpg","smallword3":"太好吃了","smallprice3":"$33388"
 			},
-			{"bigimg":"img/s3.jpg","smallimg1":"img/s31.jpg","smallword1":"我心眼小","smallprice1":"$388",
-			"smallimg2":"img/s32.jpg","smallword2":"我心眼大","smallprice2":"$488",
-			"smallimg3":"img/s33.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			{"bigimg":"img/s3.jpg","smallimg1":"img/s31.jpg","smallword1":"好看","smallprice1":"$9388",
+			"smallimg2":"img/s32.jpg","smallword2":"真好看","smallprice2":"$2488",
+			"smallimg3":"img/s33.jpg","smallword3":"超级好看","smallprice3":"$2388"
 			},
-			{"bigimg":"img/s4.jpg","smallimg1":"img/s41.jpg","smallword1":"我心眼小","smallprice1":"$388",
-			"smallimg2":"img/s42.jpg","smallword2":"我心眼大","smallprice2":"$488",
-			"smallimg3":"img/s43.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			{"bigimg":"img/s4.jpg","smallimg1":"img/s41.jpg","smallword1":"棒棒哒","smallprice1":"$8388",
+			"smallimg2":"img/s42.jpg","smallword2":"太棒了","smallprice2":"$1488",
+			"smallimg3":"img/s43.jpg","smallword3":"厉害","smallprice3":"$1388"
 			},
-			{"bigimg":"img/s5.jpg","smallimg1":"img/s51.jpg","smallword1":"我心眼小","smallprice1":"$388",
-			"smallimg2":"img/s52.jpg","smallword2":"我心眼大","smallprice2":"$488",
-			"smallimg3":"img/s53.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			{"bigimg":"img/s5.jpg","smallimg1":"img/s51.jpg","smallword1":"玩好","smallprice1":"$3886",
+			"smallimg2":"img/s52.jpg","smallword2":"住好","smallprice2":"$4188",
+			"smallimg3":"img/s53.jpg","smallword3":"真的好","smallprice3":"$3188"
 			},
-			{"bigimg":"img/s6.jpg","smallimg1":"img/s61.jpg","smallword1":"我心眼小","smallprice1":"$388",
-			"smallimg2":"img/s62.jpg","smallword2":"我心眼大","smallprice2":"$488",
-			"smallimg3":"img/s63.jpg","smallword3":"我心眼小","smallprice3":"$388"
+			{"bigimg":"img/s6.jpg","smallimg1":"img/s61.jpg","smallword1":"住的好","smallprice1":"$7388",
+			"smallimg2":"img/s62.jpg","smallword2":"睡的香","smallprice2":"$48998",
+			"smallimg3":"img/s63.jpg","smallword3":"才舒服","smallprice3":"$38998"
 			}
 		]
 		

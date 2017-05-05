@@ -14,10 +14,11 @@ ul,li{list-style: none;}
 
 
 .content{
-	position: absolute;top:100px;bottom: 70px;width: 100%;
+	position: absolute;margin-top:100px;margin-bottom: 15.2vw;width: 100%;
+
 }
 
 
-.footer {background: #fff;position: fixed; top: auto; bottom: 0;height: 15.2vw;line-height:15.2vw;display: flex;justify-content: space-around;}
+.footer {opacity: 0.8;background: #fff;position: fixed; top: auto; bottom: 0;height: 15.2vw;line-height:15.2vw;display: flex;justify-content: space-around;}
 .footer li{font-size: 36px;}
 

@@ -12,7 +12,7 @@ class SpecialHeader extends Component{
     }
     render(){
     	return 	<div className="specialHeaders">
-					<a href="#" >{this.props.lefttitle}</a>
+					<a href="javascript:window.history.go(-1);" >{this.props.lefttitle}</a>
 					<a href="#">{this.props.contitle}</a>	
 					<a href="#">{this.props.righttitle}</a>	
 				</div>
@@ -38,23 +38,23 @@ class Special extends  Component {
 					{
 						this.state.specialData.map((ele,i)=>
 							<li>
-								<div><img src={ele.bigimg} /> </div>
+								<div><a href="#/details"><img src={ele.bigimg} /> </a></div>
 								<div>
-									<img src={ele.smallimg1} />
+									<a href="#/details"><img src={ele.smallimg1} /></a>
 									<p>{ele.smallword1}</p>
 									<p>
 										<a>{ele.smallprice1}</a>
 									</p>
 								</div>
 								<div>
-									<img src={ele.smallimg2} />
+									<a href="#/details"><img src={ele.smallimg2} /></a>
 									<p>{ele.smallword2}</p>
 									<p>
 										<a>{ele.smallprice2}</a>
 									</p>
 								</div>
 								<div>
-									<img src={ele.smallimg3} />
+								<a href="#/details">	<img src={ele.smallimg3} /></a>
 									<p>{ele.smallword3}</p>
 									<p>
 										<a>{ele.smallprice3}</a>
@@ -84,4 +84,6 @@ class Special extends  Component {
     	
    }
 }
-export default Special
+export {
+SpecialHeader,	Special
+}

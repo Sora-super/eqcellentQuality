@@ -1,0 +1,68 @@
+[
+	{
+		"tupian" :["../../img/activity1.png","../../img/activity2.png","../../img/activity3.png","../../img/activity4.png","../../img/activity5.png"],
+		"lunbotu":["../../img/lunbo1.jpg","../../img/lunbo2.jpg"],
+		"price":["$299"],
+		"instrox":[
+			{"h3":"美国运动鞋","zixi":"我还是很喜欢你，像燕云扬沙，长枪血守着征旗，无我无敌；我还是很喜欢你，像秦川飘雪，万剑沉眠于池底，无痕剑意；我还是很喜欢你，像荆湖泛泽，酒香弥散在空气，追风一踢； 我还是很喜欢你，像昔日江湖一见，从此以往，天涯是你，明月也是你"}
+		],
+		"activity":["满2件立减198元，多买多送，早买早用，谢绝还价","下单立减10元","订单满185包邮"],
+		"address":[
+			{"ads1":"北京","ads2":"北京","ads3":"昌平区"}
+		],
+		"evaluate":[
+			{
+				"pingjia":"用户评价（102）",
+				"yonghu1":"17865680906",
+				"yonghu1pingjia":"花未凋，月未缺",
+				"yonghu2":"453570847",
+				"yonghu2pingjia":"人就在天涯"
+				
+			}
+		],
+		"thing":[
+			{
+				"imgurl":"http://img4.imgtn.bdimg.com/it/u=236432111,65841725&fm=23&gp=0.jpg",
+				"money":"$555",
+				"words":"这是东西好便宜啊"
+			},
+			{
+				"imgurl":"http://img0.imgtn.bdimg.com/it/u=1783548191,1811399335&fm=23&gp=0.jpg",
+				"money":"$88",
+				"words":"原价888元"
+			},
+			{
+				"imgurl":"http://img1.imgtn.bdimg.com/it/u=4182960148,1068534163&fm=23&gp=0.jpg",
+				"money":"$8",
+				"words":"原价8888888元"
+			},
+			{
+				"imgurl":"http://img5.imgtn.bdimg.com/it/u=2033765348,1346395611&fm=23&gp=0.jpg",
+				"money":"$85878",
+				"words":"你说江湖不散啊"
+			},
+			{
+				"imgurl":"http://img2.imgtn.bdimg.com/it/u=2934335366,916431300&fm=23&gp=0.jpg",
+				"money":"$858",
+				"words":"你看那陌上花开"
+			},
+			{
+				"imgurl":"http://img2.imgtn.bdimg.com/it/u=3401804264,3693592240&fm=23&gp=0.jpg",
+				"money":"$8",
+				"words":"小萝莉"
+			},
+			{
+				"imgurl":"http://img1.imgtn.bdimg.com/it/u=2072183282,2548882473&fm=23&gp=0.jpg",
+				"money":"$88",
+				"words":"艺术来源于生活"
+			},
+			{
+				"imgurl":"http://img2.imgtn.bdimg.com/it/u=1379266249,2697856093&fm=23&gp=0.jpg",
+				"money":"$88",
+				"words":"却高于生活"
+			}
+		]
+	}
+
+	
+]

@@ -22,7 +22,7 @@ class Index extends  Component {
     
         return (
             <div>    
-            	<Header lefttitle="左边" contitle="优品惠" righttitle="右边"/>           	 	
+            	<Header  contitle="优品惠" righttitle="我的"/>           	 	
             	<Content>
             		<ul className="fenlei">
             			<li>推荐</li>
@@ -37,24 +37,22 @@ class Index extends  Component {
             			<img src={require('../../img/ad1.png')} / >
             		</div>
             		<div className="lunbotu">
-        <WingBlank>
-     
-      
-        <Carousel className="my-carousel"
-          dots={true} dragging={false} swiping={false} autoplay infinite vertical={false}
-        >
-        
-        {
-        	this.state.lunbo.map((ele,i)=>
-         		 <div className="v-item"><a href="#"><img src={ele} / ></a></div>
-        		
-        	)
-        }
-
-       
-        
-        </Carousel>
-      </WingBlank>
+				      <WingBlank>					     					      
+				       <Carousel className="my-carousel"
+				       dots={true} dragging={false} swiping={false} autoplay infinite vertical={false}
+				        >
+					        
+				        {
+					        	this.state.lunbo.map((ele,i)=>
+					         		 <div className="v-items"><a href="#"><img src={ele} / ></a></div>
+					        		
+					        	)
+					    }
+					
+					       
+					        
+					        </Carousel>
+					      </WingBlank>
             		</div>
             		<div className="activity">
             			<p>
@@ -65,7 +63,7 @@ class Index extends  Component {
             			
             					{
             						this.state.activityData.map(function(ele,i){
-            							return <li><a href="#"><img src={ele}/ ></a></li>        						
+            							return <li><a href="#/details"><img src={ele}/ ></a></li>        						
             						})
             					}
             		
@@ -82,7 +80,7 @@ class Index extends  Component {
             					this.state.newData.map((ele,i)=>
             						<li>
             							<div className="tupian">
-            								<a href="#"><img src={ele.imgurl} / ></a>
+            								<a href="#/details"><img src={ele.imgurl} / ></a>
             							</div>
             							<div className="word">{ele.word}</div>
             							<div className="sale">
